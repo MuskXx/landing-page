@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Metodo de pago</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <img class="logo" src="https://i.ibb.co/kyTk8s2/X-Wings.png" title="X Wings"/>
+            <nav>
+                <div>
+                    <ul class="navLinks">
+                        <li> <a href="Index.html">Inicio</a> </li>
+                        <li> <a href="">Nosotros</a> </li>
+                        <li> <a href="">Planes</a> </li>
+                        <li> <a href="">Contacto</a> </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href=""><button>Log-In/Sign-Up</button></a>
+        </header>
+        <hr/>
+        <form class="form">
+            <h1 class="titulo">INFORMACION DEL CONTACTO:</h1>
+            <h3>Nombre</h3>
+            <input type="text" required>
+            <h3>Apellidos</h3>
+            <input type="text" required>
+            <h3>Correo</h3>
+            <input type="email" required>
+            <h3>Dirección</h3>
+            <input type="text" required>
+            <h3>Documento de identificación</h3>
+            <input type="number" required>
+            <h3>Fecha de nacimiento</h3>
+            <input type="date" required>
+            <br>
+            <br>
+            <input type="button" value="Cancelar">
+            <input type="submit">
+            <a href="Index.html">Volver</a>
+        </form>
+        <hr/>
+        <form class="form">
+            <h1 class="titulo">METODO DE PAGO:</h1>
+            <h3>Nombre del titular:</h3>
+            <input type="text" required>
+            <h3>Codigo cvv:</h3>
+            <input type="text" required>
+            <h3>Numero de la tarjeta:</h3>
+            <input type="number" required>
+            <h3>Fecha de caducación de la tarjeta:</h3>
+            <input type="date" required>
+            <br>
+            <br>
+            <input type="button" value="Cancelar">
+            <input type="submit">
+            <a href="Index.html">Volver</a>
+        </form>
+    </body>
+</html>
